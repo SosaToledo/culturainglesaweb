@@ -7,3 +7,86 @@ Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
+
+/*header*/
+header{
+    height: 80px;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+  border-radius: 50%
+}
+#logo{
+  position: absolute;
+  left: 8%;
+  top: 5px;
+}
+body{
+  margin: 0;
+}
+header p{
+  width: 100%;
+  margin: 0;
+  font-size: 2em
+}
+#title{
+  width: 85%;
+}
+
+/*INDEX*/
+img{
+  width: 100%;
+}
+
+/*Menu*/
+#menu nav{
+  position: absolute;
+  top: 100px;
+  right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255, 0.7);   
+  border-radius: 50px;
+}
+#menu div{
+  padding: 0 15px;
+  padding-bottom: 3px;
+}
+.menuItem:hover{
+  background-color:white;
+}
+.menuItem:hover:first-child{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;  
+}
+.menuItem:hover:last-child{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.menuCampus{
+  background-color: white;
+}
+
+/*Circles grade*/
+#circles{
+  display: flex;
+  justify-content: space-around;
+
+}
+.circlesGrade{
+  color: white;
+  position: relative;
+  top: -100px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
