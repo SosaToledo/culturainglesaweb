@@ -5,27 +5,34 @@
     <img src="<?php bloginfo('template_directory');?>/img/graficabiblioteca.jpg" alt="">
   </div>
   <!--CIRCLES-->
-  <div id="circles">
-    <!--KID-->
-    <div class="circlesGrade">
-      KIDS
+  <div id="circlesParents">
+    <div id="circles">
+      <!--KID-->
+      <div class="circlesGrade">
+        KIDS
+      </div>
+      <!--TEENS-->
+      <div class="circlesGrade">
+        TEENS
+      </div>
+      <!--ADULTS-->
+      <div class="circlesGrade">
+        ADULTS
+      </div>
     </div>
-    <!--TEENS-->
-    <div class="circlesGrade">
-      TEENS
-    </div>
-    <!--ADULTS-->
-    <div class="circlesGrade">
-      ADULTS
+    <div id="circles">
+      <div class="circlesGradeDectoration"></div>
+      <div class="circlesGradeDectoration"></div>
+      <div class="circlesGradeDectoration"></div>
     </div>
   </div>
   <!--CURSOS INTERNACIONALES Y NOTICIAS-->
-  <div>
-    <div>
-
+  <div class="highlight">
+    <div class="square gradeInternational">
+      Cursos Internacionales
     </div>
-    <div>
-
+    <div class="square news">
+      Noticias
     </div>
   </div>
 </body>

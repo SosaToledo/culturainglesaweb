@@ -1,6 +1,13 @@
 <div id="menu">
     <nav>
       <div class="menuItem">
+        <div id="button">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="menuItem">
         Nosotros
       </div>
       <div class="menuItem">

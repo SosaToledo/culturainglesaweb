@@ -50,17 +50,20 @@ img{
   right: 5%;
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(255, 255, 255, 0.7);   
+  background-color: rgb(255, 255, 255, 0.7);
   border-radius: 50px;
 }
-#menu div{
+#menu nav > div{
   padding: 0 15px;
   padding-bottom: 3px;
 }
 .menuItem:hover{
   background-color:white;
 }
-.menuItem:hover:first-child{
+.menuItem:nth-child(1){
+  display: none;
+}
+.menuItem:hover:nth-child(2){
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;  
 }
@@ -68,25 +71,57 @@ img{
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-.menuCampus{
+.menuItem:nth-child(7){
   background-color: white;
 }
 
 /*Circles grade*/
-#circles{
-  display: flex;
-  justify-content: space-around;
-
-}
-.circlesGrade{
-  color: white;
-  position: relative;
-  top: -100px;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  #circlesParents{
+    display: block;
+    border-bottom: 3px solid black;
+  }
+  #circles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .circlesGrade{
+    color: white;
+    position: relative;
+    top: -80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circlesGradeDectoration{
+    position: relative;
+    bottom: -15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+  }
+  .highlight{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .square{
+    height: 200px;
+    width: 40%;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .news{
+    margin-left: 40px;
+  }
+  .gradeInternational{
+    margin-right: 40px;
 }
