@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style.css">
   <script src="<?php bloginfo('template_directory');?>/js/function.js"></script>
 </head>
-<body onload="check()">
+<body>
   <header id="header">  
     <img id="logo" class="rounded-circle" style="width: 150px" src="<?php bloginfo('template_directory');?>/img/logocultura.jpg" alt="">
     <div id="title">

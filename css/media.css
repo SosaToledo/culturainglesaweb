@@ -80,4 +80,14 @@
       top:20px;
       margin-bottom: 40px
     }
+    .highlight .square{
+      width: 90%;
+    }
+    .highlight .news{
+      margin-left: 0;
+    }
+    .highlight .gradeInternational{
+      margin-right: 0;
+      margin-bottom: 20px;
+    }  
   }

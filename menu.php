@@ -1,7 +1,7 @@
 <div id="menu">
     <nav>
       <div class="menuItem">
-        <div id="button">
+        <div id="button" onclick="openMenu()">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
