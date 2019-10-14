@@ -23,7 +23,7 @@
         Novedades  
       </div>
       <div class="menuItem menuCampus">
-        CAMPUS
+        <a href="https://campus.apci.org.ar">CAMPUS</a>
       </div>
       <div class="menuItem">
         Convenios  

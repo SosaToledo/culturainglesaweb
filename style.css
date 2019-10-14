@@ -124,4 +124,13 @@ img{
   }
   .gradeInternational{
     margin-right: 40px;
-}
+  }
+  #kids{
+    background-color: rgb(199, 184, 52);
+  }
+  #teens{
+    background-color: rgb(196, 77, 77);
+  }
+  #adults{
+    background-color: rgb(44, 39, 39);
+  }

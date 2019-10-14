@@ -8,15 +8,15 @@
   <div id="circlesParents">
     <div id="circles">
       <!--KID-->
-      <div class="circlesGrade">
+      <div id="kids" class="circlesGrade">
         KIDS
       </div>
       <!--TEENS-->
-      <div class="circlesGrade">
+      <div id="teens" class="circlesGrade">
         TEENS
       </div>
       <!--ADULTS-->
-      <div class="circlesGrade">
+      <div id="adults" class="circlesGrade">
         ADULTS
       </div>
     </div>
