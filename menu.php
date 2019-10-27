@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="menuItem">
-        Nosotros
+        <a href="<?php echo get_site_url(); ?>/Nosotros">Nosotros</a>
       </div>
       <div class="menuItem">
         Cursos

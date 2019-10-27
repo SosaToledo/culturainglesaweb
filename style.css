@@ -8,8 +8,10 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
+
 /*header*/
-header{
+
+header {
     height: 80px;
     position: relative;
     background-color: white;
@@ -18,119 +20,198 @@ header{
     justify-content: center;
     align-items: center;
 }
-header img{
-  border-radius: 50%
+
+header img {
+    border-radius: 50%
 }
-#logo{
-  position: absolute;
-  left: 8%;
-  top: 5px;
+
+#logo {
+    position: absolute;
+    left: 8%;
+    top: 5px;
 }
-body{
-  margin: 0;
+
+body {
+    margin: 0;
 }
-header p{
-  width: 100%;
-  margin: 0;
-  font-size: 2em
+
+header p {
+    width: 100%;
+    margin: 0;
+    font-size: 2em
 }
-#title{
-  width: 85%;
+
+#title {
+    width: 85%;
 }
+
 
 /*INDEX*/
-img{
-  width: 100%;
+
+img {
+    width: 100%;
 }
+
 
 /*Menu*/
-#menu nav{
-  position: absolute;
-  top: 100px;
-  right: 5%;
-  display: flex;
-  justify-content: flex-end;
-  background-color: rgb(255, 255, 255, 0.7);
-  border-radius: 50px;
-}
-#menu nav > div{
-  padding: 0 15px;
-  padding-bottom: 3px;
-}
-.menuItem:hover{
-  background-color:white;
-}
-.menuItem:nth-child(1){
-  display: none;
-}
-.menuItem:hover:nth-child(2){
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;  
-}
-.menuItem:hover:last-child{
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-.menuItem:nth-child(7){
-  background-color: white;
+
+#menu nav {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 50px;
 }
 
+#menu nav>div {
+    padding: 0 15px;
+    padding-bottom: 3px;
+}
+
+.menuItem:hover {
+    background-color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.menuItem a {
+    color: #5D6873;
+}
+
+.menuItem a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menuItem:nth-child(1) {
+    display: none;
+}
+
+.menuItem:hover:nth-child(2) {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.menuItem:hover:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.menuItem:nth-child(7) {
+    background-color: white;
+}
+
+
 /*Circles grade*/
-  #circlesParents{
+
+#circlesParents {
     display: block;
-    border-bottom: 3px solid black;
-  }
-  #circles{
+    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+}
+
+#circles {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  .circlesGrade{
+}
+
+.circlesGrade {
     color: white;
     position: relative;
-    top: -80px;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-color: black;
+    top: -86px;
+    height: 140px;
+    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .circlesGradeDectoration{
+}
+
+.circlesGradeDectoration {
     position: relative;
     bottom: -15px;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: grey;
-  }
-  .highlight{
-    margin-top: 15px;
+    background-color: #5D6873;
+}
+
+.highlight {
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     flex-wrap: wrap;
-  }
-  .square{
+}
+
+.square {
     height: 200px;
     width: 40%;
-    border: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     border-radius: 15px;
     padding: 5px;
-  }
-  .news{
+}
+
+.news {
     margin-left: 40px;
-  }
-  .gradeInternational{
+}
+
+.gradeInternational {
     margin-right: 40px;
-  }
-  #kids{
-    background-color: rgb(199, 184, 52);
-  }
-  #teens{
-    background-color: rgb(196, 77, 77);
-  }
-  #adults{
-    background-color: rgb(44, 39, 39);
-  }
+}
+
+.imgCircle {
+    /*background-color: rgb(211, 164, 78);*/
+    width: 140px;
+}
+
+#segundaMitadSitio {
+    background-image: url("img/mapa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosotrosParteSuperior {
+    background-image: url("img/mapa.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nosotrosBotones {
+    margin-top: 100px;
+    width: 36vw;
+    margin-bottom: 50px;
+}
+
+.nosotrosTexto {
+	position: relative;
+	background: #ffffff;
+    border-radius: 1.5em;
+    border: 2px solid red;
+    margin:20px;
+    padding: 10px;
+}
+
+.nosotrosTexto:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 0;
+    height: 0;
+    border: 56px solid transparent;
+    border-bottom-color: red;
+    border-top: 0;
+    border-bottom-width: 48px;
+    margin-left: -49px;
+    margin-top: -49px;
+    border-left-width: 42px;
+    border-right-width: 42px;
+}
+
+.nosotrosParteInferior {
+}

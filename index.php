@@ -4,23 +4,19 @@
   <div id="carrousel">
     <img src="<?php bloginfo('template_directory');?>/img/graficabiblioteca.jpg" alt="">
   </div>
-  <!--CIRCLES-->
-  <div id="circlesParents">
-    <div id="circles">
-      <!--KID-->
-      <div id="kids" class="circlesGrade">
-        KIDS
+  <!-- Segunda mitad del sitio -->
+  <div id="segundaMitadSitio">
+    <!--CIRCLES-->
+    <div id="circlesParents">
+      <div id="circles" style="height:60px">
+        <!--KID-->
+        <img id="" class="imgcircle circlesGrade" src="<?php bloginfo('template_directory');?>/img/kids.png" alt="Kids button">
+        <!--TEENS-->
+        <img id="" class="imgcircle circlesGrade" src="<?php bloginfo('template_directory');?>/img/teens.png" alt="Teens button">
+        <!--ADULTS-->
+        <img id="" class="imgcircle circlesGrade" src="<?php bloginfo('template_directory');?>/img/adults.png" alt="Adults button">
       </div>
-      <!--TEENS-->
-      <div id="teens" class="circlesGrade">
-        TEENS
-      </div>
-      <!--ADULTS-->
-      <div id="adults" class="circlesGrade">
-        ADULTS
-      </div>
-    </div>
-    <div id="circles">
+      <div id="circles">
       <div class="circlesGradeDectoration"></div>
       <div class="circlesGradeDectoration"></div>
       <div class="circlesGradeDectoration"></div>
@@ -35,6 +31,7 @@
       Noticias
     </div>
   </div>
+</div>
 </body>
 <?php get_footer(); ?>
 </html>
