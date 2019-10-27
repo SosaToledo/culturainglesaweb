@@ -20,6 +20,15 @@ header {
     justify-content: center;
     align-items: center;
 }
+a{
+    display: contents;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
 
 header img {
     border-radius: 50%
@@ -213,5 +222,7 @@ img {
     border-right-width: 42px;
 }
 
-.nosotrosParteInferior {
+#supe{
+    padding: 50px;
+    background-image: url("img/mapa.png");
 }

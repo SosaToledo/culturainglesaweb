@@ -8,28 +8,29 @@
         </div>
       </div>
       <div class="menuItem">
-        <a href="<?php echo get_site_url(); ?>/Nosotros">Nosotros</a>
+        <!-- <a href="<?php echo get_site_url(); ?>/Nosotros">Nosotros</a> -->
+        <a href="<?php echo get_site_url(); ?>/404">Nosotros</a>
       </div>
       <div class="menuItem">
-        Cursos
+      <a href="<?php echo get_site_url(); ?>/404">Cursos</a>
       </div>
       <div class="menuItem">
-        Examenes
+      <a href="<?php echo get_site_url(); ?>/404">Examenes</a>
       </div>
       <div class="menuItem">
-        Biblioteca
+      <a href="<?php echo get_site_url(); ?>/404">Biblioteca</a>
       </div>
       <div class="menuItem">
-        Novedades  
+      <a href="<?php echo get_site_url(); ?>/404">Novedades</a>
       </div>
       <div class="menuItem menuCampus">
         <a href="https://campus.apci.org.ar">CAMPUS</a>
       </div>
       <div class="menuItem">
-        Convenios  
+      <a href="<?php echo get_site_url(); ?>/404">Convenios</a>
       </div>
       <div class="menuItem">
-        Contactos
+      <a href="<?php echo get_site_url(); ?>/404">Contacto</a>
       </div>
     </nav>
 </div>

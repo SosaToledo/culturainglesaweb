@@ -19,10 +19,13 @@
   <script src="<?php bloginfo('template_directory');?>/js/function.js"></script>
 </head>
 <body>
-  <header id="header">  
-    <img id="logo" class="rounded-circle" style="width: 150px" src="<?php bloginfo('template_directory');?>/img/logocultura.jpg" alt="">
-    <div id="title">
-      <p>ASOCIACIÓN PERGAMINO DE CULTURA INGLESA</p>
-    </div>
+  <header id="header">
+    <a href="<?php echo get_site_url(); ?>">
+
+      <img id="logo" class="rounded-circle" style="width: 150px" src="<?php bloginfo('template_directory');?>/img/logocultura.jpg" alt="">
+      <div id="title">
+        <p>ASOCIACIÓN PERGAMINO DE CULTURA INGLESA</p>
+      </div>
+    </a>  
   </header>
  
