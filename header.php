@@ -18,14 +18,18 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style.css">
   <script src="<?php bloginfo('template_directory');?>/js/function.js"></script>
 </head>
-<body>
+<body style="height:100vh">
   <header id="header">
+    <!--
+      sabes quienes lo ponen link a todo un banner?
+      LOS HIJOS DE MIL PUTA!!
+    -->
     <a href="<?php echo get_site_url(); ?>">
-
-      <img id="logo" class="rounded-circle" style="width: 150px" src="<?php bloginfo('template_directory');?>/img/logocultura.jpg" alt="">
-      <div id="title">
-        <p>ASOCIACIÓN PERGAMINO DE CULTURA INGLESA</p>
-      </div>
-    </a>  
+      <img id="logo" class="rounded-circle .d-none .d-sm-block" style="width: 150px" src="<?php bloginfo('template_directory');?>/img/logocultura.jpg" alt="">
+    </a>   
+    <div id="title" class=".d-none .d-sm-block">
+      <p>ASOCIACIÓN PERGAMINO DE CULTURA INGLESA</p>
+    </div>
+     
   </header>
  

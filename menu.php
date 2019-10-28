@@ -23,7 +23,7 @@
       <div class="menuItem">
       <a href="<?php echo get_site_url(); ?>/404">Novedades</a>
       </div>
-      <div class="menuItem menuCampus">
+      <div class="menuItem menuCampus" style="font-weight: bold">
         <a href="https://campus.apci.org.ar">CAMPUS</a>
       </div>
       <div class="menuItem">

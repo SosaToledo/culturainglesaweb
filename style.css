@@ -81,8 +81,6 @@ img {
 
 .menuItem:hover {
     background-color: white;
-    font-size: 1.1em;
-    font-weight: bold;
 }
 
 .menuItem a {
