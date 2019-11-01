@@ -17,6 +17,12 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/css/media.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style.css">
   <script src="<?php bloginfo('template_directory');?>/js/function.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  
 </head>
 <body style="height:100vh">
   <header id="header">

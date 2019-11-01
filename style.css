@@ -10,7 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
 /*header*/
-
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+*{
+    font-family: 'Roboto';
+}
 header {
     height: 80px;
     position: relative;
@@ -156,7 +162,7 @@ img {
     height: 200px;
     width: 40%;
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    border: 2px solid rgba(111, 122, 137, 0.75);
     border-radius: 15px;
     padding: 5px;
 }
@@ -190,15 +196,16 @@ img {
 
 .nosotrosBotones {
     margin-top: 100px;
-    width: 36vw;
+    width: 31vw;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .nosotrosTexto {
 	position: relative;
 	background: #ffffff;
-    border-radius: 1.5em;
-    border: 2px solid red;
+    border-radius: 3em;
+    border: 4px solid #D73332;
     margin:20px;
     padding: 10px;
 }
@@ -211,7 +218,7 @@ img {
     width: 0;
     height: 0;
     border: 56px solid transparent;
-    border-bottom-color: red;
+    border-bottom-color: #D73332;
     border-top: 0;
     border-bottom-width: 48px;
     margin-left: -49px;
@@ -220,7 +227,57 @@ img {
     border-right-width: 42px;
 }
 
+
+.nosotrosCobci {
+	position: relative;
+	background: #ffffff;
+    border-radius: 3em;
+    border: 4px solid #535B63;
+    margin:20px;
+    padding: 10px;
+}
+
+.nosotrosCobci:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 77%;
+    width: 0;
+    height: 0;
+    border: 56px solid transparent;
+    border-bottom-color: #535B63;
+    border-top: 0;
+    border-bottom-width: 48px;
+    margin-left: -49px;
+    margin-top: -49px;
+    border-left-width: 42px;
+    border-right-width: 42px;
+}
 #supe{
     padding: 50px;
     background-image: url("img/mapa.png");
+}
+
+.nosotrosTexto , .nosotrosCobci{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.nosotrosTexto .flexDiv:first-of-type {
+    width : 400vh;
+}
+.nosotrosTexto .flexDiv {
+    width: 250vw;
+    padding: 10px;   
+}
+.nosotrosCobci .flexItem2:first-of-type{
+    width: 60vw;
+}
+.nosotrosCobci .flexItem2{
+    width: 40vw;
+    padding: 10px;
+}
+.nosotrosCobci .flexItem2 img{
+    max-width: 400px;
 }
