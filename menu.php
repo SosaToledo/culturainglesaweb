@@ -29,7 +29,7 @@
       <a href="<?php echo get_site_url(); ?>/404">Convenios</a>
       </div>
       <div class="menuItem">
-      <a href="<?php echo get_site_url(); ?>/404">Contacto</a>
+      <a href="<?php echo get_site_url(); ?>/Contacto">Contacto</a>
       </div>
     </nav>
 </div>

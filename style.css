@@ -64,6 +64,12 @@ header p {
 /*INDEX*/
 
 img {
+    /*width: 100%;*/
+}
+
+#carrousel img{
+    height: 80vh;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -280,4 +286,99 @@ img {
 }
 .nosotrosCobci .flexItem2 img{
     max-width: 400px;
+}
+
+.backgroundContacto{
+    padding-top: 100px;
+    background-color: rgb(86, 94, 101);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color:white;
+}
+.primeraMitadVertical,.segundaMitadVertical{
+    width: 40vw;
+    padding: 20px;
+}
+
+.etiqueta{
+    background-color: #FFFFFF;
+    border-radius: 0.7em;
+    position: relative;
+    margin: 60px auto;
+    color:black;
+    height: 100px;
+    line-height: 100px;
+    width: 70%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.etiqueta span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.textoEtiqueta.telefono span{
+    font-size: 2em;
+}
+.imagenEtiqueta{
+    position: absolute;
+    top:10%;
+    left: -8%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #E9423E;
+}
+.tituloFormulario, button.btn{
+    background-color: #E9423E;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    padding:12px;
+}
+.backgroundContacto label{
+    margin-bottom: 0;
+}
+.backgroundContacto form{
+    border-radius: 2em;
+}
+.backgroundContacto form input{
+    border-radius: 0.6em;
+}
+.backgroundContacto form textarea{
+    border-radius: 1em;
+}
+.backgroundContacto form small{
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
+.iframeMascara{
+    margin-top: 35px !important;
+    height: 29vw;
+    width: 29vw;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.iframeInterior{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5000px;
+    position: absolute;
+    border: 7px solid #E9423E;
+    background-clip: content-box;
+    background-color: #ccc;
+    box-shadow: 
+	0 0 0 1.5px white;
+}
+.iframeInterior iframe{
+    height: 100%;
+    width: 100%;
 }

@@ -7,7 +7,7 @@
     <img id="btnCobci" class="nosotrosBotones" src="<?php bloginfo('template_directory');?>/img/cobci.png" alt="">
 </div>
 <div class="nosotrosParteInferior">
-    <div class="nosotrosTexto" style="display:none">
+    <div class="nosotrosTexto" >
         <div class="flexDiv">
             <p style="text-align: center;"><strong>  ¿Quiénes somos? </strong></p>
             <p>
@@ -61,7 +61,7 @@
             </p>
         </div>
     </div>
-    <div class="nosotrosCobci">
+    <div class="nosotrosCobci" style="display:none">
         <div class="flexItem2">
             <p style="text-align: center;"><strong>¿QUÉ SON?</strong></p>
             <p style="text-align: center;">Las Asociaciones de cultura inglesa son instituciones sin fines de lucro
