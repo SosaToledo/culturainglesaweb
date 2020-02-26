@@ -5,35 +5,30 @@
     <div class="primeraMitadVertical">
         <a href="https://goo.gl/maps/7pzGUjLbkxdXGXvz9">
             <div class="etiqueta">
-                <div class="imagenEtiqueta">
+                    <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/lugar.png" alt="LugarIco">
+                <!-- <div class="imagenEtiqueta">
                     <i class="iconoEtiqueta">Icono</i>
-                </div>
+                </div> -->
                 <div class="textoEtiqueta">
                     <span>25 de Mayo 746 <br> Pergamino - Buenos Aires <br> Argentina</span>
                 </div>
             </div>
         </a>
         <div class="etiqueta">
-            <div class="imagenEtiqueta">
-                <i class="iconoEtiqueta">Icono</i>
-            </div>
+            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Telefono.png" alt="TelefonoIco">
             <div class="textoEtiqueta telefono">
                 <span>02477 43-7654</span>
             </div>
         </div>
         <div class="etiqueta">
-            <div class="imagenEtiqueta">
-                <i class="iconoEtiqueta">Icono</i>
-            </div>
+            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Mail.png" alt="MailIco">
             <div class="textoEtiqueta">
                 <span>info@apci.org.ar <br> direccion@apci.org.ar </span>
             </div>
         </div>
         <a href="https://www.instagram.com/cultura_inglesa_pergamino/?hl=es">
             <div class="etiqueta">
-                <div class="imagenEtiqueta">
-                    <i class="iconoEtiqueta">Icono</i>
-                </div>
+                <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Insta.png" alt="InstaIco">
                 <div class="textoEtiqueta">
                     <span> @cultura_inglesa_pergamino</span>
                 </div>
@@ -54,7 +49,7 @@
                     <label for="formMensaje">Mensaje*</label>
                     <textarea class="form-control" id="formMensaje" rows="4"></textarea>
                     <small>Todos los campos con el asterisco ( * ) son obligatorios.</small>
-                    <button class="btn btn-danger" type="submit"><i>Icono enviar</i> Enviar</button>
+                    <button class="btn btn-block btn-danger" type="submit"> Enviar</button>
                 </div>
             </form>
         </div>

@@ -11,16 +11,16 @@
         <a href="<?php echo get_site_url(); ?>/Nosotros">Nosotros</a>
       </div>
       <div class="menuItem">
-      <a href="<?php echo get_site_url(); ?>/404">Cursos</a>
+      <a href="<?php echo get_site_url(); ?>/Cursos">Cursos</a>
       </div>
       <div class="menuItem">
-      <a href="<?php echo get_site_url(); ?>/404">Examenes</a>
+      <a href="<?php echo get_site_url(); ?>/Examenes">Examenes</a>
       </div>
       <div class="menuItem">
-      <a href="<?php echo get_site_url(); ?>/404">Biblioteca</a>
+      <a href="<?php echo get_site_url(); ?>/biblioteca">Biblioteca</a>
       </div>
       <div class="menuItem">
-      <a href="<?php echo get_site_url(); ?>/404">Novedades</a>
+      <a href="<?php echo get_site_url(); ?>/Novedades">Novedades</a>
       </div>
       <div class="menuItem menuCampus" style="font-weight: bold">
         <a href="https://campus.apci.org.ar">CAMPUS</a>

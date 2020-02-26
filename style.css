@@ -306,6 +306,7 @@ img {
     border-radius: 0.7em;
     position: relative;
     margin: 60px auto;
+    padding-left: 30px;
     color:black;
     height: 100px;
     line-height: 100px;
@@ -319,7 +320,7 @@ img {
     line-height: normal;
 }
 .textoEtiqueta.telefono span{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .imagenEtiqueta{
     position: absolute;
@@ -328,9 +329,14 @@ img {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    border: 2px solid white;
-    background-color: #E9423E;
+    /*border: 2px solid white;*/
+    /*background-color: #E9423E;*/
 }
+.iconoEtiqueta{
+    width: 30px;
+
+}
+
 .tituloFormulario, button.btn{
     background-color: #E9423E;
     border: 2px solid white;
@@ -381,4 +387,9 @@ img {
 .iframeInterior iframe{
     height: 100%;
     width: 100%;
+}
+
+.segundaMitadVertical button.btn{
+    margin-top: 10px;
+    padding: 5px;
 }
