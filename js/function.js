@@ -1,4 +1,4 @@
-function openMenu(){
+/*function openMenu(){
   var items = document.getElementsByClassName("menuItem");
   if(items[1].style.position == "fixed"){
     for (let index = 0; index < items.length; index++) {
@@ -12,3 +12,4 @@ function openMenu(){
     }
   }
 }
+*/

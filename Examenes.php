@@ -5,7 +5,10 @@
     .backgroundExamenes {
         background-image: url("<?php bloginfo('template_directory'); ?>/img/Examenes/Fondo.jpg");
         background-position: center;
+        background-size: cover;
         padding-top: 100px;
+        width: 97vw;
+        padding-bottom: 40px;
     }
 
     .cuadroBlanco {
@@ -59,7 +62,7 @@
 <div class="backgroundExamenes">
     <div class="row tira1">
         <div class="col">
-            <img id="ImgAPCI" src="<?php bloginfo('template_directory'); ?>/img/examenes/examenesAPCI.png" alt="Examenes APCI">
+            <img id="ImgAPCI" src="<?php bloginfo('template_directory'); ?>/img/Examenes/ExamenesAPCI.png" alt="Examenes APCI">
         </div>
         <div class="col-md-6">
 
@@ -93,7 +96,7 @@
 
         </div>
         <div class="col">
-            <img id="ImgAPCI" src="<?php bloginfo('template_directory'); ?>/img/examenes/examenesCAMBRIDGE.png" alt="Examenes Cambridge">
+            <img id="ImgAPCI" src="<?php bloginfo('template_directory'); ?>/img/Examenes/ExamenesCAMBRIDGE.png" alt="Examenes Cambridge">
         </div>
     </div>
 </div>

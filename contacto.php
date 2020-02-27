@@ -5,7 +5,7 @@
     <div class="primeraMitadVertical">
         <a href="https://goo.gl/maps/7pzGUjLbkxdXGXvz9">
             <div class="etiqueta">
-                    <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/lugar.png" alt="LugarIco">
+                    <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/Contacto/Lugar.png" alt="LugarIco">
                 <!-- <div class="imagenEtiqueta">
                     <i class="iconoEtiqueta">Icono</i>
                 </div> -->
@@ -15,20 +15,20 @@
             </div>
         </a>
         <div class="etiqueta">
-            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Telefono.png" alt="TelefonoIco">
+            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/Contacto/Telefono.png" alt="TelefonoIco">
             <div class="textoEtiqueta telefono">
                 <span>02477 43-7654</span>
             </div>
         </div>
         <div class="etiqueta">
-            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Mail.png" alt="MailIco">
+            <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/Contacto/Mail.png" alt="MailIco">
             <div class="textoEtiqueta">
                 <span>info@apci.org.ar <br> direccion@apci.org.ar </span>
             </div>
         </div>
         <a href="https://www.instagram.com/cultura_inglesa_pergamino/?hl=es">
             <div class="etiqueta">
-                <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/contacto/Insta.png" alt="InstaIco">
+                <img class="imagenEtiqueta" src="<?php bloginfo('template_directory') ;?>/img/Contacto/Insta.png" alt="InstaIco">
                 <div class="textoEtiqueta">
                     <span> @cultura_inglesa_pergamino</span>
                 </div>

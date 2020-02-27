@@ -7,7 +7,21 @@ Version: 1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
-
+/* Aca estan los cambios para mobile */
+@media (max-width: 600px) {
+    header {
+      display: none !important;
+    }
+    .navbar-brand{
+        display:inline-block !important;
+    }
+    .navbar{
+        position: relative !important;
+        right: 0;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, .75);
+    }
+}
 
 /*header*/
 @font-face {
@@ -75,20 +89,29 @@ img {
 
 
 /*Menu*/
-
-#menu nav {
-    position: absolute;
-    top: 100px;
+.navbar-brand{
+    display:none ;
+}
+nav {
+    position: absolute !important;
     right: 5%;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(255, 255, 255, 0.7);
     border-radius: 50px;
 }
-
-#menu nav>div {
+ nav>div {
     padding: 0 15px;
     padding-bottom: 3px;
+}
+nav .nav-link {
+    background-color: rgba(255 , 255,255, 0.5);
+    color: rgb(0, 0, 0) !important;
+}
+nav li:first-child .nav-link{
+    border-radius: 1em 0 0 1em;
+}
+nav li:last-child .nav-link{
+    border-radius: 0 1em 1em 0;
 }
 
 .menuItem:hover {
@@ -187,13 +210,13 @@ img {
 }
 
 #segundaMitadSitio {
-    background-image: url("img/mapa.png");
+    background-image: url("img/Mapamundi2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .nosotrosParteSuperior {
-    background-image: url("img/mapa.png");
+    background-image: url("img/Mapamundi.jpg");
     background-size: cover;
     display: flex;
     justify-content: space-around;
@@ -261,14 +284,7 @@ img {
 }
 #supe{
     padding: 50px;
-    background-image: url("img/mapa.png");
-}
-
-.nosotrosTexto , .nosotrosCobci{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    background-image: url("img/Mapamundi2.jpg");
 }
 .nosotrosTexto .flexDiv:first-of-type {
     width : 400vh;
@@ -284,8 +300,8 @@ img {
     width: 40vw;
     padding: 10px;
 }
-.nosotrosCobci .flexItem2 img{
-    max-width: 400px;
+.nosotrosCobci img{
+    width: 100%;
 }
 
 .backgroundContacto{

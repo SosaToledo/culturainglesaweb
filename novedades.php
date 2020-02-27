@@ -7,10 +7,12 @@
         position:absolute;
         width: 100%;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         z-index: -1;
         background-color:#E33634;
         padding-top: 85px;
+        height: 100%;
     }
     .novedadesItem{
         width: 400px;

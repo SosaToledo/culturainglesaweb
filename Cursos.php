@@ -4,9 +4,11 @@
 
 <!-- Ponemos los 3 iconos por debajo del mouse -->
 <style>
+
     #ImgAbsolute {
         position: absolute;
         z-index: -1;
+        top:80px;
     }
 
     .flex-imagenes {
@@ -18,6 +20,7 @@
     .flex-descripciones{
         width: 300px;
         position: relative;
+        margin-bottom: 50px;
     }
     .borde{
         padding:20px;
@@ -39,23 +42,26 @@
     .descAdults{
         border-color: #5f6369;
     }
+    .espacioFooter{
+        height: 100px;
+    }
 </style>
 <div class="container-fluid" id="ImgAbsolute">
     <div class="flex-imagenes">
         <div class="flex-descripciones">
-            <img src="<?php bloginfo('template_directory'); ?>/img/cursos/1Kids.png" alt="Kids" class="img-fluid">
+            <img src="<?php bloginfo('template_directory'); ?>/img/Cursos/1Kids.png" alt="Kids" class="img-fluid">
             <div class="borde descKids">
                 <p>Lorem ipsum dolor sit  quisquam quaerat officiis siloremnt Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quas commodi molestiae rem quo aliquid reprehenderit voluptatibus autem odit corporis deleniti, expedita, repellat delectus ad aliquam facilis. In, consequatur odio. repellat sapiente aliquid dolores culpa unde harum modi quae, consequuntur, natus reprehenderit pariatur. Dignissimos, fugit sequi?</p>
             </div>
         </div>
         <div class="flex-descripciones">
-            <img src="<?php bloginfo('template_directory'); ?>/img/cursos/2TeensCorregido.png" alt="" class="img-fluid">
+            <img src="<?php bloginfo('template_directory'); ?>/img/Cursos/2TeensCorregido.png" alt="" class="img-fluid">
             <div class="borde descTeens">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laboriosam, quisquam quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magni consequuntur provident alias, laudantium corrupti vitae voluptatibus  officiis sint repellat sapiente aliquid dolores culpa unde harum modi quae, consequuntur, natus reprehenderit pariatur. Dignissimos, fugit sequi?</p>
             </div>
         </div>
         <div class="flex-descripciones">
-            <img src="<?php bloginfo('template_directory'); ?>/img/cursos/3Adults.png" alt="" class="img-fluid">
+            <img src="<?php bloginfo('template_directory'); ?>/img/Cursos/3Adults.png" alt="" class="img-fluid">
             <div class="borde descAdults">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident accusantium amet dolores in maiores, qui corporis! Quisuid harum, sequi, delectus et alias. Exercitationem laboriosam, quisquam quaerat officiis sint repellat sapiente aliquid dolores culpa unde harum modi quae, consequuntur, natus reprehenderit pariatur. Dignissimos, fugit sequi?</p>
             </div>

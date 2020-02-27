@@ -13,6 +13,7 @@ get_header(); ?>
 <style>
     #supe{
         text-align: center;
+        height:88vh;
     }
     #imgWIP {
         width: 40vw;
@@ -21,7 +22,7 @@ get_header(); ?>
 </style>
 <div id="supe">
     <img id="imgWIP" src="<?php bloginfo('template_directory'); ?>/img/wip.gif" alt="">
-    <h1>Work in progress </h1>
+    <h1> <strong> Work in progress </strong> </h1>
 </div>
 
 <?php get_footer(); ?>

@@ -3,12 +3,12 @@
 <?php include 'menu.php'; ?>
 
 <div class="nosotrosParteSuperior">
-    <img id="btnApci" class="nosotrosBotones" src="<?php bloginfo('template_directory');?>/img/apci.png" alt="">
+    <img id="btnApci" class="nosotrosBotones" src="<?php bloginfo('template_directory');?>/img/APCI.png" alt="">
     <img id="btnCobci" class="nosotrosBotones" src="<?php bloginfo('template_directory');?>/img/cobci.png" alt="">
 </div>
-<div class="nosotrosParteInferior">
-    <div class="nosotrosTexto" >
-        <div class="flexDiv">
+<div class="nosotrosParteInferior container">
+    <div class=" row nosotrosTexto" >
+        <div class="col-md-4">
             <p style="text-align: center;"><strong>  ¿Quiénes somos? </strong></p>
             <p>
             La Asociación Pergamino de Cultura Inglesa es una Asociación Civil sin fines de lucro y
@@ -21,7 +21,7 @@
             <p>
             Además cuenta con una Directora, Personal Docente y Personal Administrativo.</p>
         </div>
-        <div class="flexDiv">
+        <div class="col-md-4">
             <p><strong> Comisión Directiva 2019/2020 </strong></p>
             <p>
             <strong>Presidente:</strong> Susana Bargiano <br>
@@ -44,7 +44,7 @@
             2) Valeria Lengle <br>
             </p>
         </div>
-        <div class="flexDiv">
+        <div class="col-md-4">
             <p>
             <strong>Personal Directivo, Docente y Administrativo</strong></p>
             <p>
@@ -61,8 +61,8 @@
             </p>
         </div>
     </div>
-    <div class="nosotrosCobci" style="display:none">
-        <div class="flexItem2">
+    <div class="nosotrosCobci row" style="display:none">
+        <div class="col-md-6">
             <p style="text-align: center;"><strong>¿QUÉ SON?</strong></p>
             <p style="text-align: center;">Las Asociaciones de cultura inglesa son instituciones sin fines de lucro
             destinadas a difundir la lengua y la cultura inglesa. <br>
@@ -75,7 +75,7 @@
             Británico el que fundó las Asociaciones Argentinas de Cultura Inglesa entre 1942 y 1945.
             </p>
         </div>
-        <div class="flexItem2">
+        <div class="col-md-6">
             <p> <strong> Las Asociaciones unidas en C.O.B.C.I. son: </strong> </p> 
             <p>
                 ● Asociación Bahiense de Cultura Inglesa (Bahía Blanca – Buenos Aires)
