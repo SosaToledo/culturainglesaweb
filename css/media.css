@@ -67,27 +67,11 @@
     #title{
       display: none;
     }
-    #circlesParents{
-      border-bottom: 0px solid white !important
-    }
-    .circlesGradeDectoration{
-      display: none;
-    }
     #carrousel{
       display: none;
     }
-    #circlesParents #circles .circlesGrade{
-      top:20px;
-      margin-bottom: 40px
-    }
-    .highlight .square{
-      width: 90%;
-    }
-    .highlight .news{
-      margin-left: 0;
-    }
-    .highlight .gradeInternational{
-      margin-right: 0;
-      margin-bottom: 20px;
-    }  
+    /* 
+    circulos de cursos
+     */
+    
   }

@@ -5,10 +5,10 @@
     <img src="<?php bloginfo('template_directory');?>/img/ninoLeyendo.jpg" alt="">
   </div>
   <!-- Segunda mitad del sitio -->
-  <div id="segundaMitadSitio">
+  <div id="segundaMitadSitio" class="">
     <!--CIRCLES-->
-    <div id="circlesParents">
-      <div id="circles" style="height:60px">
+    <div id="circlesParents" class="">
+      <div id="circles" style="">
         <!--KID-->
         <img id="" class="imgcircle circlesGrade" src="<?php bloginfo('template_directory');?>/img/kids.png" alt="Kids button">
         <!--TEENS-->
