@@ -34,7 +34,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 header {
     height: 80px;
     position: relative;
-    background-color: white;
+    background-color: rgba(243, 235, 236, 0.637);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -150,7 +150,6 @@ nav li:last-child .nav-link{
 
 #circlesParents {
     display: block;
-    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
 }
 
 #circles {
@@ -198,21 +197,6 @@ nav li:last-child .nav-link{
 
 .news {
     margin-left: 40px;
-}
-
-.gradeInternational {
-    margin-right: 40px;
-}
-
-.imgCircle {
-    /*background-color: rgb(211, 164, 78);*/
-    width: 140px;
-}
-
-#segundaMitadSitio {
-    background-image: url("img/Mapamundi2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .nosotrosParteSuperior {

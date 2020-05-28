@@ -2,7 +2,7 @@
 <?php include 'menu.php'; ?>
   <!--CARROUSEL-->
   <div id="carrousel">
-    <img src="<?php bloginfo('template_directory');?>/img/ninoLeyendo.jpg" alt="">
+    <img src="<?php bloginfo('template_directory');?>/img/portada2.jpg" alt="">
   </div>
   <!-- Segunda mitad del sitio -->
   <div id="segundaMitadSitio" class="">
@@ -17,19 +17,14 @@
         <img id="" class="imgcircle circlesGrade" src="<?php bloginfo('template_directory');?>/img/adults.png" alt="Adults button">
       </div>
       <div id="circles">
+      <!-- <div class="circlesGradeDectoration"></div>
       <div class="circlesGradeDectoration"></div>
-      <div class="circlesGradeDectoration"></div>
-      <div class="circlesGradeDectoration"></div>
+      <div class="circlesGradeDectoration"></div> -->
     </div>
   </div>
   <!--CURSOS INTERNACIONALES Y NOTICIAS-->
   <div class="highlight">
-    <div class="square gradeInternational">
-      Cursos Internacionales
-    </div>
-    <div class="square news">
-      Noticias
-    </div>
+    
   </div>
 </div>
 </body>

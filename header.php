@@ -32,7 +32,6 @@
       <img id="logo" class="rounded-circle .d-none .d-sm-block" style="width: 150px" src="<?php bloginfo('template_directory'); ?>/img/logocultura.jpg" alt="">
     </a>
     <div id="title" class=".d-none .d-sm-block">
-      <p>ASOCIACIÓN PERGAMINO DE CULTURA INGLESA</p>
+      <p>Asociación Pergamino de Cultura Inglesa</p>
     </div>
-
   </header>
