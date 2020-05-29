@@ -32,6 +32,6 @@
       <img id="logo" class="rounded-circle .d-none .d-sm-block" style="width: 150px" src="<?php bloginfo('template_directory'); ?>/img/logocultura.jpg" alt="">
     </a>
     <div id="title" class=".d-none .d-sm-block">
-      <p>Prueba de branch</p>
+      <p>Prueba de branch nuevodiseno</p>
     </div>
   </header>
