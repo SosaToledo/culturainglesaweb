@@ -34,7 +34,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 header {
     height: 80px;
     position: relative;
-    background-color: rgba(243, 235, 236, 0.637);
+    background-color: rgba(201, 196, 196, 0.445);
     text-align: center;
     display: flex;
     justify-content: center;
