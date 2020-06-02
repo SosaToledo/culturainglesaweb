@@ -8,3 +8,12 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 /* Aca estan los cambios para mobile */
+#menu-card{
+  height: 100vh;
+}
+#menu-card .card{
+  height: 25%;  
+}
+
+
+
