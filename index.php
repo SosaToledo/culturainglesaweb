@@ -32,9 +32,9 @@
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Cursos</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Examenes</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Biblioteca</div></div>
-    <div class="mx-xl-2 m-lg-1 col-xl-2 col-lg-5 card d-none d-xl-block">
-      <div class="row align-items-center justify-content-center">
-        <img class="col-12" style="height: 20%" src="img/logocultura.jpg" alt="">
+    <div class="mx-xl-2 m-lg-1 col-xl-2 col-lg-5 card-index d-none d-xl-block align-items-center justify-content-center">
+      <div class="">
+        <img class="col-12" style="height: 20%" src="<?php bloginfo('template_directory'); ?>/img/logocultura.png" alt="">
       </div>
     </div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Novedades</div></div>
