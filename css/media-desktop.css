@@ -1,0 +1,24 @@
+@media (min-width: 1200px){
+  #menu-card, #carrousel{
+    height: 100vh;
+    width: auto;
+  }
+  #menu-card #nosotros{
+    background-image: url("../img/nosotros.png");
+    object-fit: cover;
+  }
+  .card div{
+    opacity: 1;
+  }
+  #menu-card .card-index{
+    border-width: 0;
+  }
+  #menu-card .card{
+    height: 70%;
+    opacity: 0.5;
+  }
+  #menu-card .card:hover{
+    opacity: 1;
+  }
+
+}
