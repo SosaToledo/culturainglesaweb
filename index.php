@@ -28,7 +28,7 @@
 </head>
 <body>
   <!--MENU-->
-  <div class="container-fluid row align-items-center justify-content-center m-0" id="menu-card">
+  <div class="row align-items-center justify-content-center m-0" id="menu-card">
     <div id="nosotros" class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Nosotros</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Cursos</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Examenes</div></div>
@@ -46,6 +46,10 @@
   <!--CARROUSEL-->
   <div id="carrousel">
       
+  </div>
+  <!-- Noticias -->
+  <div id="news">
+
   </div>
   <!--FOOTER-->
   <?php get_footer(); ?>
