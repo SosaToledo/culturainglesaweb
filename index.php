@@ -20,15 +20,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
   <!--OWN-->
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/media.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/media-desktop.css">
+  
   <script src="<?php bloginfo('template_directory'); ?>/js/function.js"></script>
 </head>
 <body>
   <!--MENU-->
-  <div class="container-fluid row align-items-center justify-content-center m-0" id="menu-card">
-    <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Nosotros</div></div>
+  <div class="row align-items-center justify-content-center m-0" id="menu-card">
+    <div id="nosotros" class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Nosotros</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Cursos</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Examenes</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Biblioteca</div></div>
@@ -45,6 +46,10 @@
   <!--CARROUSEL-->
   <div id="carrousel">
       
+  </div>
+  <!-- Noticias -->
+  <div id="news">
+
   </div>
   <!--FOOTER-->
   <?php get_footer(); ?>

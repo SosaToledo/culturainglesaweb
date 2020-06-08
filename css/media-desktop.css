@@ -1,0 +1,32 @@
+@media (min-width: 1200px){
+  #menu-card{
+    background-image: url("../img/graficabiblioteca.jpg");
+  }
+  #menu-card, #carrousel, #news{
+    height: 100vh;
+    width: auto;
+  }
+  #menu-card #nosotros{
+    background-image: url("../img/index/nosotros.png");
+    object-fit: cover;
+  }
+  .card div{
+    opacity: 1;
+  }
+  #menu-card .card-index{
+    border-width: 0;
+  }
+  #menu-card .card{
+    height: 70%;
+    opacity: 0.7;
+    font-size: 1.2vw;
+  }
+  #menu-card .card div{
+    opacity: 1;
+    font-weight: bold;
+  }
+  #menu-card .card:hover{
+    opacity: 1;
+  }
+
+}
