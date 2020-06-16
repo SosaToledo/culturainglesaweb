@@ -43,13 +43,9 @@
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Convenios</div></div>
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Contacto</div></div>
   </div>
-  <!--CARROUSEL-->
-  <div id="carrousel">
-      
-  </div>
   <!-- Noticias -->
   <div id="news">
-
+  
   </div>
   <!--FOOTER-->
   <?php get_footer(); ?>
