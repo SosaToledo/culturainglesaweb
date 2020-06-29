@@ -44,8 +44,8 @@
     <div class="mx-xl-2 m-lg-1 col-xl-1 col-lg-5 card boder border-dark rounded-lg align-items-center justify-content-end"><div>Contacto</div></div>
   </div>
   <!-- Noticias -->
-  <div id="news">
-  
+  <div id="news" class="">
+    
   </div>
   <!--FOOTER-->
   <?php get_footer(); ?>

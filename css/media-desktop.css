@@ -2,7 +2,7 @@
   #menu-card{
     background-image: url("../img/graficabiblioteca.jpg");
   }
-  #menu-card, #carrousel, #news{
+  #menu-card{
     height: 100vh;
     width: auto;
   }
@@ -29,4 +29,18 @@
     opacity: 1;
   }
 
+  #news
+  {
+    height: 60vh;
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  footer
+  {
+    color: white;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: rgb(8, 2, 2);
+  }
 }
